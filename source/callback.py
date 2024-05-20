@@ -14,9 +14,9 @@ async def arbic(client: Client, query: CallbackQuery):
     await query.answer("القائمة الرئيسية")
     await query.edit_message_text(f"**مرحبا عزيزي : {query.from_user.mention}.\n\nانا بوت تشغيل موسيقى صوتية ومرئية.\nقم بإضافة البوت إلي مجموعتك او قناتك.\nسيتم تفعيل البوت وانضمام المساعد تلقائياً.\nاستخدم الازرار لمعرفه اوامر الاستخدام.**",
         reply_markup=InlineKeyboardMarkup([
-[InlineKeyboardButton("صاحب السورس 🧑‍✈️", url=f"https://t.me/R7_OX")],
+[InlineKeyboardButton("صاحب السورس 🧑‍✈️", url=f"https://t.me/NUNUU")],
 [InlineKeyboardButton("طريقة التشغيل 🧠", callback_data="bcmds"),InlineKeyboardButton("طريقة التفعيل 🦸", callback_data="bhowtouse")],
-[InlineKeyboardButton("جروب البوت 🤖", url=f"https://t.me/R3_QX"),InlineKeyboardButton("قناه التحديثات 🐉", url=f"https://t.me/R7_QX")],
+[InlineKeyboardButton("جروب البوت 🤖", url=f"https://t.me/SEDTHON_help"),InlineKeyboardButton("قناه التحديثات 🐉", url=f"https://t.me/veevvw")],
 [InlineKeyboardButton(f"{devname}", user_id=f"{dev}")],
 [InlineKeyboardButton("اضف البوت الي مجموعتك او قناتك ⚡",url=f"https://t.me/{bot.username}?startgroup=true")],]),disable_web_page_preview=True)
 
@@ -36,9 +36,9 @@ async def english(client: Client, query: CallbackQuery):
 ᴘᴏᴡᴇʀᴇᴅ ʙʏ [{OWNER_NAME}]""",
 
         reply_markup=InlineKeyboardMarkup([
-[InlineKeyboardButton("The owner of the source 🧑‍✈️", url=f"https://t.me/R7_OX")],
+[InlineKeyboardButton("The owner of the source 🧑‍✈️", url=f"https://t.me/NUNUU")],
 [InlineKeyboardButton("Operation method 🧠", callback_data="cbcmds"),InlineKeyboardButton("Activation method 🦸", callback_data="cbhowtouse")],
-[InlineKeyboardButton("Bot Group 🤖", url=f"https://t.me/R3_QX"),InlineKeyboardButton("Channel Updates 🐉", url=f"https://t.me/R7_QX")],
+[InlineKeyboardButton("Bot Group 🤖", url=f"https://t.me/SEDTHON_help"),InlineKeyboardButton("Channel Updates 🐉", url=f"https://t.me/veevvw")],
 [InlineKeyboardButton(f"{devname}", user_id=f"{dev}")],
 [InlineKeyboardButton("Add the bot to your group or channel ⚡",url=f"https://t.me/{bot.username}?startgroup=true")],]),disable_web_page_preview=True)
 

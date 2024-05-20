@@ -176,7 +176,7 @@ async def play(client: Client, message):
   alexa = message
   bot_username = client.me.username
   chat_id = message.chat.id
-  user_id = message.from_user.id if message.from_user else "R7_OX"
+  user_id = message.from_user.id if message.from_user else "kkkk5z"
   message_id = message.id 
   gr = await get_group(bot_username)
   ch = await get_channel(bot_username)

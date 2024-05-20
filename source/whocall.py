@@ -6,7 +6,7 @@ from pytgcalls.types.input_stream import AudioPiped
 from source.Data import (get_userbot, get_call)
 import asyncio
 
-@Client.on_message(filters.regex("^مين في الكول$|^مين ف الكول$|^مين في كول$"))
+@Client.on_message(filters.regex("^مين في الاتصال$|^الصاعدين$|^المتكلمين$"))
 async def sttrcall(client, message):
     calll = await get_call(client.me.username)
     user = await get_userbot(client.me.username)

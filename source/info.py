@@ -483,7 +483,7 @@ async def joinch(message):
         if ii == "معطل":
           return
         cch = await get_channel(message._client.me.username)
-        ch = cch.replace("https://t.me/", "NUNUU")
+        ch = cch.replace("https://t.me/", "veevvw")
         try:
             await message._client.get_chat_member(ch, message.from_user.id)
         except UserNotParticipant:
